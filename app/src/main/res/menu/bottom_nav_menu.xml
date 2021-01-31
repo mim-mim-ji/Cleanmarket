@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="홈"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="동네 생활"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/navigation_place"
+        android:icon="@drawable/ic_place_black_24dp"
+        android:title="내 근처"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="검색"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/navigation_myaccount"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="나의마켓"
+        android:enabled="true"/>
+
+</menu>

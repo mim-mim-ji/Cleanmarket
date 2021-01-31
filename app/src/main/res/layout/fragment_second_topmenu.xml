@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/fragment_second_findstore"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/find_store"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:background="#F2F8EF"/>
+
+            <View style="@style/Divider_vertical_white"
+                android:layout_height="150dp"
+                android:layout_width="2dp"/>
+
+            <ImageButton
+                android:id="@+id/fragment_second_cleanmarket"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="#F2F8EF"
+                android:scaleType="centerInside"
+                android:src="@drawable/cleanmarket_direct" />
+
+            <View style="@style/Divider_vertical_white"
+                android:layout_height="150dp"
+                android:layout_width="2dp"/>
+
+            <ImageButton
+                android:id="@+id/fragment_second_delivery_apply"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/delivery_apply"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:background="#F2F8EF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:background="@drawable/rail" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="서비스 소개"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="크린토피아가 제공하는 세탁서비스를 소개합니다." />
+
+    </LinearLayout>
+
+</LinearLayout>
