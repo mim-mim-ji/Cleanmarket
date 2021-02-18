@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBar;
@@ -56,6 +57,7 @@ public  class CreateAccount extends AppCompatActivity {
                     case R.id.create_account_submit:     // 회원가입 버튼
                         register();
                         Intent intent = new Intent(CreateAccount.this, CreateAccount_Result.class);
+                        intent.putExtra("data",create_account_id.getText().toString()+"님 환영합니다");
                         startActivity(intent);
                         finish();
                         break;

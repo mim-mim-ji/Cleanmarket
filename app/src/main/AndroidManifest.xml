@@ -33,6 +33,7 @@
 
         <activity android:name=".LoginRequest" />
 
+        <!-- 팝업 CreateAccount_Result-->
         <activity android:name=".CreateAccount_Result"/>
 
         <activity android:name=".cleanmarket_main.MarketMainActivity">
